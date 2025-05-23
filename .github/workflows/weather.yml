@@ -32,7 +32,7 @@ jobs:
         id: get-weather # 为步骤设置id以供后续引用输出
         env:
           AMAP_KEY: ${{ secrets.AMAP_KEY }}
-          CITY_ADDRESS: "海南省海口市"
+          CITY_ADDRESS: "海南省海口市龙华区"
         run: |          
           node ./weather.js
           
